@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 import sys
 
-def click_num()
+def click_num():
+    pass
 
 for line in sys.stdin:
 
