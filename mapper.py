@@ -1,19 +1,18 @@
 #!/usr/bin/env python
 import sys
+from urlparse import urlparse
 
 def click_num():
     pass
 
-for line in sys.stdin:
-
-    line = line.strip().split(r'\t')
-
+for ln in sys.stdin:
+    line = ln.strip().split('\t')
     query, region = line[0].split("@")
     shown_urls = line[1].split(r',')
     clicked_list = line[2].split(r',')
     clicked_ts = line[3].split(r',')
-    hosts = [parse.urlparse(known_url).netloc for known_url in shown_urls]
-
+    hosts = [urlparse(known_url).hostname for known_url in shown_urls]
+ 
     for i, s in enumerate(shown_urls):
         print (query + '@itsmydelimeteryouknow@' + s + '\tQD imp 1')
         print (query + '@itsmydelimeteryouknow@' + s + '\tQD mean_position ' + str(i))
@@ -30,14 +29,9 @@ for line in sys.stdin:
         print (query + '@itsmydelimeteryouknow@' + s + '\tQD mean_num_clcik ' + str(i))
 
         print (s + '\tDD clicks 1')
-<<<<<<< HEAD
-        print (s + '\tDD region_ctr ' + region)if len(clicked_list) > 1
-        print (query + '\tQQ time ' + str(int(clicked_list[-1]) - int(clicked_list[0])))
-=======
         print (s + '\tDD region_ctr ' + region)
-
->>>>>>> c175bb9e96d2cdb5afbae5bdfbad2f6be23e673c
-        print (s + '\tDD mean_num_clcik ' + str(i))
+        
+	print (s + '\tDD mean_num_clcik ' + str(i))
 
     for s in clicked_list[:-1]:
         print (query + '@itsmydelimeteryouknow@' + s + '\tQD not_last_click 1')
@@ -62,7 +56,7 @@ for line in sys.stdin:
     print (query + '\tQQ clicks ' + str(len(clicked_list)))
 
     if len(clicked_list) > 1:
-        print (query + '\tQQ time ' + str(int(clicked_list[-1]) - int(clicked_list[0])))
+        print (query + '\tQQ time ' + str(int(clicked_ts[-1]) - int(clicked_ts[0])))
 
         mean_t = 0
         for ts in clicked_ts:
@@ -73,4 +67,3 @@ for line in sys.stdin:
         print (query + '\tQQ no_click 1')
 
     print (query + '\tQQ mean_click ' + str(len(clicked_list)))
-    return

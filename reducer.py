@@ -5,10 +5,7 @@ current_query = None
 
 for line in sys.stdin:
     line = line.strip()
-    print (line)
-    return
     key, value = line.split('\t', 1)
-
     ident = value[:2]
 
     if ident == 'QQ':
@@ -41,4 +38,5 @@ for line in sys.stdin:
     elif ident == 'DD':
         ctr = 0
         imp = 0
+    print (1)
 
