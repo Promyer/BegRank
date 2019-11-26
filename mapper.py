@@ -30,8 +30,8 @@ for line in sys.stdin:
         print (query + '@itsmydelimeteryouknow@' + s + '\tQD mean_num_clcik ' + str(i))
 
         print (s + '\tDD clicks 1')
-        print (s + '\tDD region_ctr ' + region)if len(clicked_list) > 1:
-        print (query + '\tQQ time ' + str(int(clicked_list[-1]) - int(clicked_list[0])))
+        print (s + '\tDD region_ctr ' + region)
+
         print (s + '\tDD mean_num_clcik ' + str(i))
 
     for s in clicked_list[:-1]:
