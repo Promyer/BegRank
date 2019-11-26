@@ -69,5 +69,3 @@ for line in sys.stdin:
 
     print (query + '\tQQ mean_click ' + str(len(clicked_list)))
     return
-
-
