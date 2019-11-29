@@ -12,13 +12,33 @@ for ln in sys.stdin:
     clicked_list = line[2].split(r',')
     clicked_ts = line[3].split(r',')
     hosts = [urlparse(known_url).hostname for known_url in shown_urls]
- 
-    for i, s in enumerate(shown_urls):
-        print (query + '@itsmydelimeteryouknow@' + s + '\tQD imp 1')
-        print (query + '@itsmydelimeteryouknow@' + s + '\tQD mean_position ' + str(i))
+    clicked_hosts = [urlparse(known_url).hostname for known_url in clicked_list] #Bad. TODO
 
-        print (s + '\tDD imp 1')
-        print (s + '\tDD mean_pos ' + str(i))
+    session = [[x, []] for x in shown_urls]
+
+    last_viewed = 0
+    for i, site in enumerate(clicked_list):
+        url_pos = shown_urls.index(site)
+        session[url_pos][1].append(i)
+        last_viewed = max(last_viewed, url_pos)
+
+    session = session[:last_viewed]
+
+
+    for i, (url, host) in enumerate(zip(shown_urls, hosts)):
+        print (query + '@itsmydelimeteryouknow@' + url + '\tQD imp 1')
+        print (query + '@itsmydelimeteryouknow@' + url + '\tQD mean_position ' + str(i))
+
+        print (query + '@itsmydelimeteryouknow@' + host + '\tQH imp 1')
+        print (query + '@itsmydelimeteryouknow@' + host + '\tQH mean_position ' + str(i))
+
+
+        print (url + '\tDD imp 1')
+        print (url + '\tDD mean_pos ' + str(i))
+
+        print (host + '\tHH imp 1')
+        print (host + '\tHH mean_pos ' + str(i))
+
 
     print (query + '\tQQ imp 1')
 
@@ -30,7 +50,7 @@ for ln in sys.stdin:
 
         print (s + '\tDD clicks 1')
         print (s + '\tDD region_ctr ' + region)
-        
+
 	print (s + '\tDD mean_num_clcik ' + str(i))
 
     for s in clicked_list[:-1]:
@@ -52,6 +72,14 @@ for ln in sys.stdin:
     for t, s in zip([int(clicked_ts[i + 1]) - int(clicked_ts[i]) for i in range(len(clicked_ts) - 1)], clicked_list):
         print (query + '@itsmydelimeteryouknow@' + s + '\tQD mean_time ' + str(t))
         print (s + '\tDD mean_time ' + str(t))
+
+    for act in session:
+        if len(act[1]) > 1:
+            print (query + '@itsmydelimeteryouknow@' + act[0] + '\tQD double_click 1')
+            print (act[0] + '\tDD double_click 1')
+        if len(act[1]) == 0:
+            print (query + '@itsmydelimeteryouknow@' + act[0] + '\tQD view_no_click 1')
+            print (act[0] + '\tDD view_no_click 1')
 
     print (query + '\tQQ clicks ' + str(len(clicked_list)))
 
