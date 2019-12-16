@@ -38,21 +38,24 @@ for ln in sys.stdin:
     for i, (url, host) in enumerate(zip(shown_urls, hosts)):
         print (query + '@itsmydelimeteryouknow@' + url + 'QD' + '\t' + 'imp 1')
         print (query + '@itsmydelimeteryouknow@' + url + 'QD' + '\t' + 'mean_pos ' + str(i))
-        print (query + '@itsmydelimeteryouknow@' + session[i][0] + 'QD' + '\t' + 'region_imp ' + region + '@1')
+
+        print (query + '@itsmydelimeteryouknow@' + url + 'QD' + '\t' + 'region_imp ' + region + '@1')
         print (url + 'DD' + '\t' + 'region_imp ' + region + '@1')
         print (host + 'HH' + '\t' + 'region_imp ' + region + '@1')
 
-        if (len(session[i][1]) > 0):
-            print (query + '@itsmydelimeteryouknow@' + url + 'QD' + '\t' + 'position_on_click ' + str(i))
-            print (url + 'DD' + '\t' + 'position_on_click ' + str(i))
-            print (host + 'HH' + '\t' + 'position_on_click ' + str(i))
-
-            if (len(session[i][1]) == 1):
-                print (query + '@itsmydelimeteryouknow@' + url + 'QD' + '\t' + 'one_click 1')
-                print (url + 'DD' + '\t' + 'one_click 1')
-                print (host + 'HH' + '\t' + 'one_click 1')
 
         if i <= last_viewed:
+
+            if (len(session[i][1]) > 0):
+                print (query + '@itsmydelimeteryouknow@' + url + 'QD' + '\t' + 'position_on_click ' + str(i))
+                print (url + 'DD' + '\t' + 'position_on_click ' + str(i))
+                print (host + 'HH' + '\t' + 'position_on_click ' + str(i))
+
+                if (len(session[i][1]) == 1):
+                    print (query + '@itsmydelimeteryouknow@' + url + 'QD' + '\t' + 'one_click 1')
+                    print (url + 'DD' + '\t' + 'one_click 1')
+                    print (host + 'HH' + '\t' + 'one_click 1')
+
             print (query + '@itsmydelimeteryouknow@' + session[i][0] + 'QD' + '\t' + 'region_ctr ' + region + '@' + str(len(session[i][1])))
             print (url + 'DD' + '\t' + 'region_ctr ' + region + '@' + str(len(session[i][1])))
             print (host + 'HH' + '\t' + 'region_ctr ' + region + '@' + str(len(session[i][1])))
