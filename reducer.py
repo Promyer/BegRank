@@ -469,3 +469,17 @@ for line in sys.stdin:
         process_query_host(value)
     else:
         raise Exception("Some exception 5")
+
+if current_key:
+    if current_ident == 'QQ':
+        end_process_query()
+    elif current_ident == 'DD':
+        end_process_document()
+    elif current_ident == 'HH':
+        end_process_host()
+    elif current_ident == 'QD':
+        end_process_query_document()
+    elif current_ident == 'QH':
+        end_process_query_host()
+    else:
+        raise Exception("Some exception 13")
