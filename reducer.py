@@ -49,9 +49,9 @@ def end_process_document():
     answer[19] = {region : (answer[19][region] / answer[18][region]) for region in answer[19]}
 
     print ("DD" + current_key[:-2] + '\t' + ' '.join([str(value)
-    for value in answer[:17] + answer[20:]]) + '\t' +
-    ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '\t' +
-     ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
+    for value in answer[:17] + answer[20:]]) + '@ @' +
+    ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '@ @' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '@ @' +
      ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]))
 
 def end_process_host():
@@ -84,9 +84,9 @@ def end_process_host():
     answer[19] = {region : (answer[19][region] / answer[18][region]) for region in answer[19]}
 
     print ("HH" + current_key[:-2] + '\t' + ' '.join([str(value)
-    for value in answer[:17] + answer[20:]]) + '\t' +
-    ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '\t' +
-     ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
+    for value in answer[:17] + answer[20:]]) + '@ @' +
+    ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '@ @' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '@ @' +
      ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]))
 
 def end_process_query_document():
@@ -119,10 +119,10 @@ def end_process_query_document():
     answer[18] = {region : (answer[18][region] / answer[19][region]) for region in answer[18]}
     answer[20] = {region : (answer[20][region] / answer[19][region]) for region in answer[20]}
 
-    print ("QD" + '\t'.join(current_key[:-2].split('@itsmydelimeteryouknow@')) + '\t' + ' '.join([str(value)
-    for value in answer[:18] + answer[21:]]) + '\t' +
-    ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
-     ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]) + '\t' +
+    print ("QD" + '@ @'.join(current_key[:-2].split('@itsmydelimeteryouknow@')) + '\t' + ' '.join([str(value)
+    for value in answer[:18] + answer[21:]]) + '@ @' +
+    ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '@ @' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]) + '@ @' +
      ' '.join([str(i) + ":" + str(q) for i, q in answer[20].items()]))
 
 
@@ -136,7 +136,7 @@ def end_process_query_host():
         answer[2] = -1
     answer += [answer[1]/imp, answer[2]/imp, answer[3]/imp, answer[3]/answer[2]]
 
-    print ('QH' + '\t'.join(current_key[:-2].split('@itsmydelimeteryouknow@')) +
+    print ('QH' + '@ @'.join(current_key[:-2].split('@itsmydelimeteryouknow@')) + '\t' +
     ' '.join([str(q) for q in answer]))
 
 def make_new_answer_query():
