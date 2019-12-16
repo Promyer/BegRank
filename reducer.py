@@ -12,94 +12,135 @@ current_ident = None
 answer = []
 
 def end_process_query():
+    global answer
     imp = answer[0]
     if imp == 0:
-        except ValueError:
-            print('Error@ in 4')
+        raise Exception("Some exception 6")
     answer += [answer[1]/imp, answer[2]/imp, answer[3]/imp, answer[4]/imp, answer[5]/imp, answer[6]/imp, answer[6]/answer[1]]
     print ("QQ" + current_key[:-2] + '\t' + ' '.join([str(value) for value in answer]))
 
 def end_process_document():
+    global answer
     imp = answer[0]
     if imp == 0:
-        except ValueError:
-            print('Error@ in 5')
+        raise Exception("Some exception 7")
+    if answer[5] == 0:
+        if answer[7] != 0:
+            raise Exception("Some exception 15")
+        answer[5] = -1
+    if answer[2] == 0:
+        answer[2] = -1
+    if answer[6] == 0:
+        answer[6] = -1
+    if answer[10] + answer[11] == 0:
+        answer[10] = -1
+    if answer[3] == 0:
+        answer[3] = -1
     answer += [answer[1]/imp, answer[2]/imp, answer[3]/imp, answer[4]/imp,
-     answer[5]/imp, answer[6]/imp, answer[7]/answer[5], answer[8]/imp,
-     answer[8]/answer[5], answer[8]/answer[2], answer[9]/imp,
-     answer[9]/answer[6], answer[10]/(answer[10] + amswer[11]), answer[12]/imp,
-     answer[12]/answer[2], answer[2]/answer[3], answer[13]/imp, answer[14]/imp,
-     answer[15]/imp, answer[5]/answer[2], answer[6]/answer[2],
-     answer[7]/answer[2], answer[9]/answer[2], answer[10]/answer[2],
-     answer[13]/answer[2], answer[14]/answer[2], answer[15]/answer[2], answer[14]/answer[3], answer[16]/answer[6]]
+             answer[5]/imp, answer[6]/imp, answer[7]/answer[5], answer[8]/imp,
+             answer[8]/answer[5], answer[8]/answer[2], answer[9]/imp,
+             answer[9]/answer[6], answer[10]/(answer[10] + answer[11]), answer[12]/imp,
+             answer[12]/answer[2], answer[2]/answer[3], answer[13]/imp, answer[14]/imp,
+             answer[15]/imp, answer[5]/answer[2], answer[6]/answer[2],
+             answer[7]/answer[2], answer[9]/answer[2], answer[10]/answer[2],
+             answer[13]/answer[2], answer[14]/answer[2], answer[15]/answer[2], answer[14]/answer[3], answer[16]/answer[6]]
 
-     answer[17] = {region : (answer[17][region] / answer[18][region]) for region in answer[17]}
-     answer[19] = {region : (answer[19][region] / answer[18][region]) for region in answer[19]}
+    answer[17] = {region : (answer[17][region] / answer[18][region]) for region in answer[17]}
+    answer[19] = {region : (answer[19][region] / answer[18][region]) for region in answer[19]}
 
-     print ("DD" + current_key[:-2] + '\t' + ' '.join([str(value)
-        for value in answer[:17] + answer[20:]]) + '\t' +
-        ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '\t' +
-         ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
-         ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]))
+    print ("DD" + current_key[:-2] + '\t' + ' '.join([str(value)
+    for value in answer[:17] + answer[20:]]) + '\t' +
+    ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '\t' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]))
 
 def end_process_host():
+    global answer
     imp = answer[0]
     if imp == 0:
-        except ValueError:
-            print('Error@ in 6')
+        raise Exception("Some exception 8")
+    if answer[5] == 0:
+        if answer[7] != 0:
+            raise Exception("Some exception 15")
+        answer[5] = -1
+    if answer[2] == 0:
+        answer[2] = -1
+    if answer[6] == 0:
+        answer[6] = -1
+    if answer[10] + answer[11] == 0:
+        answer[10] = -1
+    if answer[3] == 0:
+        answer[3] = -1
     answer += [answer[1]/imp, answer[2]/imp, answer[3]/imp, answer[4]/imp,
-     answer[5]/imp, answer[6]/imp, answer[7]/answer[5], answer[8]/imp,
-     answer[8]/answer[5], answer[8]/answer[2], answer[9]/imp,
-     answer[9]/answer[6], answer[10]/(answer[10] + amswer[11]), answer[12]/imp,
-     answer[12]/answer[2], answer[2]/answer[3], answer[13]/imp, answer[14]/imp,
-     answer[15]/imp, answer[5]/answer[2], answer[6]/answer[2],
-     answer[7]/answer[2], answer[9]/answer[2], answer[10]/answer[2],
-     answer[13]/answer[2], answer[14]/answer[2], answer[15]/answer[2], answer[14]/answer[3], answer[16]/answer[6]]
+             answer[5]/imp, answer[6]/imp, answer[7]/answer[5], answer[8]/imp,
+             answer[8]/answer[5], answer[8]/answer[2], answer[9]/imp,
+             answer[9]/answer[6], answer[10]/(answer[10] + answer[11]), answer[12]/imp,
+             answer[12]/answer[2], answer[2]/answer[3], answer[13]/imp, answer[14]/imp,
+             answer[15]/imp, answer[5]/answer[2], answer[6]/answer[2],
+             answer[7]/answer[2], answer[9]/answer[2], answer[10]/answer[2],
+             answer[13]/answer[2], answer[14]/answer[2], answer[15]/answer[2], answer[14]/answer[3], answer[16]/answer[6]]
 
-     answer[17] = {region : (answer[17][region] / answer[18][region]) for region in answer[17]}
-     answer[19] = {region : (answer[19][region] / answer[18][region]) for region in answer[19]}
+    answer[17] = {region : (answer[17][region] / answer[18][region]) for region in answer[17]}
+    answer[19] = {region : (answer[19][region] / answer[18][region]) for region in answer[19]}
 
-     print ("HH" + current_key[:-2] + '\t' + ' '.join([str(value)
-        for value in answer[:17] + answer[20:]]) + '\t' +
-        ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '\t' +
-         ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
-         ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]))
+    print ("HH" + current_key[:-2] + '\t' + ' '.join([str(value)
+    for value in answer[:17] + answer[20:]]) + '\t' +
+    ' '.join([str(i) + ":" + str(q) for i, q in answer[17].items()]) + '\t' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]))
 
 def end_process_query_document():
+    global answer
     imp = answer[0]
     if imp == 0:
-        except ValueError:
-            print('Error@ in 7')
+        raise Exception("Some exception 9")
+    if answer[5] == 0:
+        if answer[7] != 0:
+            raise Exception("Some exception 15")
+        answer[5] = -1
+    if answer[2] == 0:
+        answer[2] = -1
+    if answer[6] == 0:
+        answer[6] = -1
+    if answer[10] + answer[11] == 0:
+        answer[10] = -1
+    if answer[3] == 0:
+        answer[3] = -1
+
     answer += [answer[1]/imp, answer[2]/imp, answer[3]/imp, answer[4]/imp,
-     answer[5]/imp, answer[6]/imp, answer[7]/answer[5], answer[8]/imp,
-     answer[8]/answer[5], answer[8]/answer[2], answer[9]/imp,
-     answer[9]/answer[6], answer[10]/(answer[10] + amswer[11]), answer[12]/imp,
-     answer[12]/answer[2], answer[2]/answer[3], answer[13]/imp, answer[14]/imp,
-     answer[15]/imp, answer[5]/answer[2], answer[6]/answer[2],
-     answer[7]/answer[2], answer[9]/answer[2], answer[10]/answer[2],
-     answer[13]/answer[2], answer[14]/answer[2], answer[15]/answer[2], answer[14]/answer[3], answer[16]/answer[6], answer[17]/answer[5]]
+             answer[5]/imp, answer[6]/imp, answer[7]/answer[5], answer[8]/imp,
+             answer[8]/answer[5], answer[8]/answer[2], answer[9]/imp,
+             answer[9]/answer[6], answer[10]/(answer[10] + answer[11]), answer[12]/imp,
+             answer[12]/answer[2], answer[2]/answer[3], answer[13]/imp, answer[14]/imp,
+             answer[15]/imp, answer[5]/answer[2], answer[6]/answer[2],
+             answer[7]/answer[2], answer[9]/answer[2], answer[10]/answer[2],
+             answer[13]/answer[2], answer[14]/answer[2], answer[15]/answer[2], answer[14]/answer[3], answer[16]/answer[6], answer[17]/answer[5]]
 
-     answer[18] = {region : (answer[18][region] / answer[19][region]) for region in answer[18]}
-     answer[20] = {region : (answer[20][region] / answer[19][region]) for region in answer[20]}
+    answer[18] = {region : (answer[18][region] / answer[19][region]) for region in answer[18]}
+    answer[20] = {region : (answer[20][region] / answer[19][region]) for region in answer[20]}
 
-     print ("QD" + '\t'.join(current_key[:-2].split('@itsmydelimeteryouknow@')) + '\t' + ' '.join([str(value)
-        for value in answer[:18] + answer[21:]]) + '\t' +
-        ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
-         ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]) + '\t' +
-         ' '.join([str(i) + ":" + str(q) for i, q in answer[20].items()]))
+    print ("QD" + '\t'.join(current_key[:-2].split('@itsmydelimeteryouknow@')) + '\t' + ' '.join([str(value)
+    for value in answer[:18] + answer[21:]]) + '\t' +
+    ' '.join([str(i) + ":" + str(q) for i, q in answer[18].items()]) + '\t' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[19].items()]) + '\t' +
+     ' '.join([str(i) + ":" + str(q) for i, q in answer[20].items()]))
 
 
 def end_process_query_host():
+    global answer
     imp = answer[0]
     if imp == 0:
-        except ValueError:
-            print('Error@ in 8')
+        raise Exception("Some exception 10")
+
+    if answer[2] == 0:
+        answer[2] = -1
     answer += [answer[1]/imp, answer[2]/imp, answer[3]/imp, answer[3]/answer[2]]
 
     print ('QH' + '\t'.join(current_key[:-2].split('@itsmydelimeteryouknow@')) +
-    ' '.join(answer))
+    ' '.join([str(q) for q in answer]))
 
 def make_new_answer_query():
+    global answer
     answer = [
         0,# Количество показов выдачи по запросу
         0,# Суммарное количество кликов
@@ -111,6 +152,7 @@ def make_new_answer_query():
     ]
 
 def make_new_answer_document():
+    global answer
     answer = [
         0,# Количество показов
         0,# Сумма позиций
@@ -135,6 +177,7 @@ def make_new_answer_document():
     ]
 
 def make_new_answer_host():
+    global answer
     answer = [
         0,# Количество показов
         0,# Сумма позиций
@@ -159,6 +202,7 @@ def make_new_answer_host():
     ]
 
 def make_new_answer_query_document():
+    global answer
     answer = [
         0,# Количество показов
         0,# Сумма позиций
@@ -184,6 +228,7 @@ def make_new_answer_query_document():
     ]
 
 def make_new_answer_query_host():
+    global answer
     answer = [
         0,# Количество показов
         0,# Средняя позиция
@@ -193,6 +238,7 @@ def make_new_answer_query_host():
 
 
 def process_query(value):
+    global answer
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += int(point)
@@ -212,10 +258,10 @@ def process_query(value):
         point = int(point)
         answer[6] += 1
     else:
-        except ValueError:
-            print('Error@ in 9')
+        raise Exception("Some exception 1")
 
 def process_query_document (value):
+    global answer
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
@@ -262,10 +308,10 @@ def process_query_document (value):
     elif tag == 'one_click':
         answer[6] += 1
     else:
-        except ValueError:
-            print('Error@ in 10')
+        raise Exception("Some exception 2")
 
 def process_document(value):
+    global answer
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
@@ -310,10 +356,10 @@ def process_document(value):
     elif tag == 'one_click':
         answer[6] += 1
     else:
-        except ValueError:
-            print('Error@ in 11')
+        raise Exception("Some exception 3")
 
 def process_host(value):
+    global answer
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
@@ -358,10 +404,10 @@ def process_host(value):
     elif tag == 'one_click':
         answer[6] += 1
     else:
-        except ValueError:
-            print('Error@ in 12')
+        raise Exception("Some exception 4")
 
 def process_query_host(value):
+    global answer
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
@@ -372,8 +418,7 @@ def process_query_host(value):
     elif tag == 'click':
         answer[2] += 1
     else:
-        except ValueError:
-            print('Error@ in 13')
+        raise Exception("Some exception 12")
 
 for line in sys.stdin:
     line = line.strip()
@@ -392,10 +437,9 @@ for line in sys.stdin:
         elif current_ident == 'QH':
             end_process_query_host()
         else:
-            except ValueError:
-                print('Error@ in 1')
+            raise Exception("Some exception 13")
 
-    if current_key is None or current_key != key
+    if current_key is None or current_key != key:
         if ident == 'QQ':
             make_new_answer_query()
         elif ident == 'DD':
@@ -407,8 +451,7 @@ for line in sys.stdin:
         elif ident == 'QH':
             make_new_answer_query_host()
         else:
-            except ValueError:
-                print('Error@ in 3')
+            raise Exception("Some exception 14")
 
         current_key = key
         current_ident = ident
@@ -425,5 +468,4 @@ for line in sys.stdin:
     elif ident == 'QH':
         process_query_host(value)
     else:
-        except ValueError:
-            print('Error@ in 2')
+        raise Exception("Some exception 5")

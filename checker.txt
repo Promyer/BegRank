@@ -1,0 +1,436 @@
+http://second.ru/___1___DD	imp 1
+http://second.ru/___1___DD	mean_pos 1
+http://second.ru/___1___DD	not_last_viewed 1
+http://second.ru/___1___DD	region_ctr 70@0
+http://second.ru/___1___DD	region_imp 70@1
+http://vokzal.bget.ru/___10___DD	imp 1
+http://vokzal.bget.ru/___10___DD	mean_pos 0
+http://vokzal.bget.ru/___10___DD	not_last_viewed 1
+http://vokzal.bget.ru/___10___DD	region_ctr 70@0
+http://vokzal.bget.ru/___10___DD	region_imp 70@1
+http://vokzal.bget.ru/___1___DD	imp 1
+http://vokzal.bget.ru/___1___DD	mean_pos 0
+http://vokzal.bget.ru/___1___DD	not_last_viewed 1
+http://vokzal.bget.ru/___1___DD	region_ctr 188@0
+http://vokzal.bget.ru/___1___DD	region_imp 188@1
+http://vokzal.bget.ru/___2___DD	imp 1
+http://vokzal.bget.ru/___2___DD	last_click 1
+http://vokzal.bget.ru/___2___DD	mean_pos 2
+http://vokzal.bget.ru/___2___DD	not_last_viewed 1
+http://vokzal.bget.ru/___2___DD	num_click 3
+http://vokzal.bget.ru/___2___DD	one_click 1
+http://vokzal.bget.ru/___2___DD	position_on_click 2
+http://vokzal.bget.ru/___2___DD	region_ctr 188@1
+http://vokzal.bget.ru/___2___DD	region_imp 188@1
+http://vokzal.bget.ru/___2___DD	region_last 188@1
+http://vokzal.bget.ru/___2___DD	return_click 1
+http://vokzal.bget.ru/___2___DD	return_click_last 1
+http://vokzal.bget.ru/___3___DD	imp 1
+http://vokzal.bget.ru/___3___DD	mean_pos 5
+http://vokzal.bget.ru/___3___DD	not_last_viewed 1
+http://vokzal.bget.ru/___3___DD	region_ctr 188@0
+http://vokzal.bget.ru/___3___DD	region_imp 188@1
+http://vokzal.bget.ru/___4___DD	imp 1
+http://vokzal.bget.ru/___4___DD	mean_pos 6
+http://vokzal.bget.ru/___4___DD	not_last_viewed 1
+http://vokzal.bget.ru/___4___DD	region_ctr 188@0
+http://vokzal.bget.ru/___4___DD	region_imp 188@1
+http://vokzal.bget.ru/___5___DD	first_click 1
+http://vokzal.bget.ru/___5___DD	imp 1
+http://vokzal.bget.ru/___5___DD	imp 1
+http://vokzal.bget.ru/___5___DD	last_viewed 1
+http://vokzal.bget.ru/___5___DD	mean_pos 8
+http://vokzal.bget.ru/___5___DD	mean_pos 9
+http://vokzal.bget.ru/___5___DD	mean_time 98000
+http://vokzal.bget.ru/___5___DD	num_click 0
+http://vokzal.bget.ru/___5___DD	one_click 1
+http://vokzal.bget.ru/___5___DD	position_on_click 8
+http://vokzal.bget.ru/___5___DD	region_ctr 188@1
+http://vokzal.bget.ru/___5___DD	region_imp 188@1
+http://vokzal.bget.ru/___5___DD	region_imp 70@1
+http://vokzaly.mwmoskva.ru/___1___DD	double_click 2
+http://vokzaly.mwmoskva.ru/___1___DD	imp 1
+http://vokzaly.mwmoskva.ru/___1___DD	imp 1
+http://vokzaly.mwmoskva.ru/___1___DD	last_viewed 1
+http://vokzaly.mwmoskva.ru/___1___DD	mean_pos 1
+http://vokzaly.mwmoskva.ru/___1___DD	mean_pos 6
+http://vokzaly.mwmoskva.ru/___1___DD	mean_time 17000
+http://vokzaly.mwmoskva.ru/___1___DD	mean_time 17000
+http://vokzaly.mwmoskva.ru/___1___DD	mean_time 19000
+http://vokzaly.mwmoskva.ru/___1___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___1___DD	num_click 1
+http://vokzaly.mwmoskva.ru/___1___DD	num_click 2
+http://vokzaly.mwmoskva.ru/___1___DD	num_click 2
+http://vokzaly.mwmoskva.ru/___1___DD	one_click 1
+http://vokzaly.mwmoskva.ru/___1___DD	position_on_click 1
+http://vokzaly.mwmoskva.ru/___1___DD	position_on_click 6
+http://vokzaly.mwmoskva.ru/___1___DD	region_ctr 188@2
+http://vokzaly.mwmoskva.ru/___1___DD	region_ctr 70@1
+http://vokzaly.mwmoskva.ru/___1___DD	region_imp 188@1
+http://vokzaly.mwmoskva.ru/___1___DD	region_imp 70@1
+http://vokzaly.mwmoskva.ru/___1___DD	return_click 1
+http://vokzaly.mwmoskva.ru/___2___DD	imp 1
+http://vokzaly.mwmoskva.ru/___2___DD	imp 1
+http://vokzaly.mwmoskva.ru/___2___DD	mean_pos 3
+http://vokzaly.mwmoskva.ru/___2___DD	mean_pos 5
+http://vokzaly.mwmoskva.ru/___2___DD	mean_time 19000
+http://vokzaly.mwmoskva.ru/___2___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___2___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___2___DD	num_click 1
+http://vokzaly.mwmoskva.ru/___2___DD	one_click 1
+http://vokzaly.mwmoskva.ru/___2___DD	position_on_click 5
+http://vokzaly.mwmoskva.ru/___2___DD	region_ctr 188@0
+http://vokzaly.mwmoskva.ru/___2___DD	region_ctr 70@1
+http://vokzaly.mwmoskva.ru/___2___DD	region_imp 188@1
+http://vokzaly.mwmoskva.ru/___2___DD	region_imp 70@1
+http://vokzaly.mwmoskva.ru/___3___DD	imp 1
+http://vokzaly.mwmoskva.ru/___3___DD	imp 1
+http://vokzaly.mwmoskva.ru/___3___DD	mean_pos 4
+http://vokzaly.mwmoskva.ru/___3___DD	mean_pos 4
+http://vokzaly.mwmoskva.ru/___3___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___3___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___3___DD	region_ctr 188@0
+http://vokzaly.mwmoskva.ru/___3___DD	region_ctr 70@0
+http://vokzaly.mwmoskva.ru/___3___DD	region_imp 188@1
+http://vokzaly.mwmoskva.ru/___3___DD	region_imp 70@1
+http://vokzaly.mwmoskva.ru/___4___DD	double_click 2
+http://vokzaly.mwmoskva.ru/___4___DD	first_click 1
+http://vokzaly.mwmoskva.ru/___4___DD	imp 1
+http://vokzaly.mwmoskva.ru/___4___DD	imp 1
+http://vokzaly.mwmoskva.ru/___4___DD	last_click 1
+http://vokzaly.mwmoskva.ru/___4___DD	mean_pos 3
+http://vokzaly.mwmoskva.ru/___4___DD	mean_pos 7
+http://vokzaly.mwmoskva.ru/___4___DD	mean_time 98000
+http://vokzaly.mwmoskva.ru/___4___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___4___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___4___DD	num_click 0
+http://vokzaly.mwmoskva.ru/___4___DD	num_click 3
+http://vokzaly.mwmoskva.ru/___4___DD	position_on_click 3
+http://vokzaly.mwmoskva.ru/___4___DD	region_ctr 188@0
+http://vokzaly.mwmoskva.ru/___4___DD	region_ctr 70@2
+http://vokzaly.mwmoskva.ru/___4___DD	region_imp 188@1
+http://vokzaly.mwmoskva.ru/___4___DD	region_imp 70@1
+http://vokzaly.mwmoskva.ru/___4___DD	region_last 70@1
+http://vokzaly.mwmoskva.ru/___4___DD	return_click 1
+http://vokzaly.mwmoskva.ru/___4___DD	return_click_last 1
+http://vokzaly.mwmoskva.ru/___5___DD	imp 1
+http://vokzaly.mwmoskva.ru/___5___DD	mean_pos 2
+http://vokzaly.mwmoskva.ru/___5___DD	not_last_viewed 1
+http://vokzaly.mwmoskva.ru/___5___DD	region_ctr 70@0
+http://vokzaly.mwmoskva.ru/___5___DD	region_imp 70@1
+http://vokzaly.mwmoskva.ru/___7___DD	imp 1
+http://vokzaly.mwmoskva.ru/___7___DD	mean_pos 7
+http://vokzaly.mwmoskva.ru/___7___DD	region_imp 70@1
+http://vokzaly.mwmoskva.ru/___8___DD	imp 1
+http://vokzaly.mwmoskva.ru/___8___DD	mean_pos 8
+http://vokzaly.mwmoskva.ru/___8___DD	region_imp 70@1
+second.ruHH	imp 1
+second.ruHH	mean_pos 1
+second.ruHH	not_last_viewed 1
+second.ruHH	region_ctr 70@0
+second.ruHH	region_imp 70@1
+vokzal.bget.ruHH	first_click 1
+vokzal.bget.ruHH	imp 1
+vokzal.bget.ruHH	imp 1
+vokzal.bget.ruHH	imp 1
+vokzal.bget.ruHH	imp 1
+vokzal.bget.ruHH	imp 1
+vokzal.bget.ruHH	imp 1
+vokzal.bget.ruHH	imp 1
+vokzal.bget.ruHH	last_click 1
+vokzal.bget.ruHH	last_viewed 1
+vokzal.bget.ruHH	mean_pos 0
+vokzal.bget.ruHH	mean_pos 0
+vokzal.bget.ruHH	mean_pos 2
+vokzal.bget.ruHH	mean_pos 5
+vokzal.bget.ruHH	mean_pos 6
+vokzal.bget.ruHH	mean_pos 8
+vokzal.bget.ruHH	mean_pos 9
+vokzal.bget.ruHH	mean_time 17000
+vokzal.bget.ruHH	mean_time 19000
+vokzal.bget.ruHH	mean_time 98000
+vokzal.bget.ruHH	not_last_viewed 1
+vokzal.bget.ruHH	not_last_viewed 1
+vokzal.bget.ruHH	not_last_viewed 1
+vokzal.bget.ruHH	not_last_viewed 1
+vokzal.bget.ruHH	not_last_viewed 1
+vokzal.bget.ruHH	num_click 0
+vokzal.bget.ruHH	num_click 3
+vokzal.bget.ruHH	one_click 1
+vokzal.bget.ruHH	one_click 1
+vokzal.bget.ruHH	position_on_click 2
+vokzal.bget.ruHH	position_on_click 8
+vokzal.bget.ruHH	region_ctr 188@0
+vokzal.bget.ruHH	region_ctr 188@0
+vokzal.bget.ruHH	region_ctr 188@0
+vokzal.bget.ruHH	region_ctr 188@1
+vokzal.bget.ruHH	region_ctr 188@1
+vokzal.bget.ruHH	region_ctr 70@0
+vokzal.bget.ruHH	region_imp 188@1
+vokzal.bget.ruHH	region_imp 188@1
+vokzal.bget.ruHH	region_imp 188@1
+vokzal.bget.ruHH	region_imp 188@1
+vokzal.bget.ruHH	region_imp 188@1
+vokzal.bget.ruHH	region_imp 70@1
+vokzal.bget.ruHH	region_imp 70@1
+vokzal.bget.ruHH	region_last 188@1
+vokzal.bget.ruHH	return_click 1
+vokzal.bget.ruHH	return_click_last 1
+vokzaly.mwmoskva.ruHH	double_click 2
+vokzaly.mwmoskva.ruHH	double_click 2
+vokzaly.mwmoskva.ruHH	first_click 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	imp 1
+vokzaly.mwmoskva.ruHH	last_click 1
+vokzaly.mwmoskva.ruHH	last_viewed 1
+vokzaly.mwmoskva.ruHH	mean_pos 1
+vokzaly.mwmoskva.ruHH	mean_pos 2
+vokzaly.mwmoskva.ruHH	mean_pos 3
+vokzaly.mwmoskva.ruHH	mean_pos 3
+vokzaly.mwmoskva.ruHH	mean_pos 4
+vokzaly.mwmoskva.ruHH	mean_pos 4
+vokzaly.mwmoskva.ruHH	mean_pos 5
+vokzaly.mwmoskva.ruHH	mean_pos 6
+vokzaly.mwmoskva.ruHH	mean_pos 7
+vokzaly.mwmoskva.ruHH	mean_pos 7
+vokzaly.mwmoskva.ruHH	mean_pos 8
+vokzaly.mwmoskva.ruHH	mean_time 17000
+vokzaly.mwmoskva.ruHH	mean_time 19000
+vokzaly.mwmoskva.ruHH	mean_time 98000
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	not_last_viewed 1
+vokzaly.mwmoskva.ruHH	num_click 0
+vokzaly.mwmoskva.ruHH	num_click 1
+vokzaly.mwmoskva.ruHH	num_click 1
+vokzaly.mwmoskva.ruHH	num_click 2
+vokzaly.mwmoskva.ruHH	num_click 2
+vokzaly.mwmoskva.ruHH	num_click 3
+vokzaly.mwmoskva.ruHH	one_click 1
+vokzaly.mwmoskva.ruHH	one_click 1
+vokzaly.mwmoskva.ruHH	position_on_click 1
+vokzaly.mwmoskva.ruHH	position_on_click 3
+vokzaly.mwmoskva.ruHH	position_on_click 5
+vokzaly.mwmoskva.ruHH	position_on_click 6
+vokzaly.mwmoskva.ruHH	region_ctr 188@0
+vokzaly.mwmoskva.ruHH	region_ctr 188@0
+vokzaly.mwmoskva.ruHH	region_ctr 188@0
+vokzaly.mwmoskva.ruHH	region_ctr 188@2
+vokzaly.mwmoskva.ruHH	region_ctr 70@0
+vokzaly.mwmoskva.ruHH	region_ctr 70@0
+vokzaly.mwmoskva.ruHH	region_ctr 70@1
+vokzaly.mwmoskva.ruHH	region_ctr 70@1
+vokzaly.mwmoskva.ruHH	region_ctr 70@2
+vokzaly.mwmoskva.ruHH	region_imp 188@1
+vokzaly.mwmoskva.ruHH	region_imp 188@1
+vokzaly.mwmoskva.ruHH	region_imp 188@1
+vokzaly.mwmoskva.ruHH	region_imp 188@1
+vokzaly.mwmoskva.ruHH	region_imp 70@1
+vokzaly.mwmoskva.ruHH	region_imp 70@1
+vokzaly.mwmoskva.ruHH	region_imp 70@1
+vokzaly.mwmoskva.ruHH	region_imp 70@1
+vokzaly.mwmoskva.ruHH	region_imp 70@1
+vokzaly.mwmoskva.ruHH	region_imp 70@1
+vokzaly.mwmoskva.ruHH	region_imp 70@1
+vokzaly.mwmoskva.ruHH	region_last 70@1
+vokzaly.mwmoskva.ruHH	return_click 1
+vokzaly.mwmoskva.ruHH	return_click 1
+vokzaly.mwmoskva.ruHH	return_click_last 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://second.ru/___1___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://second.ru/___1___QD	mean_pos 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://second.ru/___1___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://second.ru/___1___QD	region_ctr 70@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://second.ru/___1___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___10___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___10___QD	mean_pos 0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___10___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___10___QD	region_ctr 70@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___10___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___1___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___1___QD	mean_pos 0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___1___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___1___QD	region_ctr 188@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___1___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	last_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	mean_pos 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	num_click 3
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	one_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	position_on_click 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	region_ctr 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	region_last 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	return_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___2___QD	return_click_last 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___3___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___3___QD	mean_pos 5
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___3___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___3___QD	region_ctr 188@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___3___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___4___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___4___QD	mean_pos 6
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___4___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___4___QD	region_ctr 188@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___4___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	first_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	mean_pos 8
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	mean_pos 9
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	mean_time 98000
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	num_click 0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	one_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	position_on_click 8
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	region_ctr 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzal.bget.ru/___5___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	double_click 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	mean_pos 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	mean_pos 6
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	mean_time 17000
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	mean_time 17000
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	mean_time 19000
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	num_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	num_click 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	num_click 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	one_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	position_mass_click 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	position_on_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	position_on_click 6
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	region_ctr 188@2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	region_ctr 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___1___QD	return_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	mean_pos 3
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	mean_pos 5
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	mean_time 19000
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	num_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	one_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	position_on_click 5
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	region_ctr 188@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	region_ctr 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___2___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	mean_pos 4
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	mean_pos 4
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	region_ctr 188@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	region_ctr 70@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___3___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	double_click 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	first_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	last_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	mean_pos 3
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	mean_pos 7
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	mean_time 98000
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	num_click 0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	num_click 3
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	position_mass_click 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	position_on_click 3
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	region_ctr 188@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	region_ctr 70@2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	region_imp 188@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	region_last 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	return_click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___4___QD	return_click_last 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___5___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___5___QD	mean_pos 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___5___QD	not_last_viewed 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___5___QD	region_ctr 70@0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___5___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___7___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___7___QD	mean_pos 7
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___7___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___8___QD	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___8___QD	mean_pos 8
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@http://vokzaly.mwmoskva.ru/___8___QD	region_imp 70@1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@second.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@second.ruQH	mean_pos 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	click 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	last_click 8
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	mean_pos 0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	mean_pos 0
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	mean_pos 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	mean_pos 5
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	mean_pos 6
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	mean_pos 8
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzal.bget.ruQH	mean_pos 9
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	imp 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	last_click 9
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 1
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 2
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 3
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 3
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 4
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 4
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 5
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 6
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 7
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 7
+киевский вокзал стоимость проезда@itsmydelimeteryouknow@vokzaly.mwmoskva.ruQH	mean_pos 8
+киевский вокзал стоимость проездаQQ	imp 1
+киевский вокзал стоимость проездаQQ	imp 1
+киевский вокзал стоимость проездаQQ	mean_num_click 4
+киевский вокзал стоимость проездаQQ	mean_num_click 4
+киевский вокзал стоимость проездаQQ	return_click_last 1
+киевский вокзал стоимость проездаQQ	return_click_last 1
+киевский вокзал стоимость проездаQQ	time 134000
+киевский вокзал стоимость проездаQQ	time 134000
