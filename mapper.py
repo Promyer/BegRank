@@ -98,31 +98,31 @@ for ln in sys.stdin:
     print (query + 'QQ' + '\t' + 'imp 1')
     print (query + 'QQ' + '\t' + 'mean_num_click ' + str(len(clicked_list)))
 
+    if len(clicked_list) > 0:
+        if shown_urls[last_viewed] != clicked_list[-1]:
+            print (query + '@itsmydelimeteryouknow@' + clicked_list[-1] + 'QD' + '\t' + 'return_click_last 1')
+            print (clicked_list[-1] + 'DD' + '\t' + 'return_click_last 1')
+            print (urlparse(clicked_list[-1]).hostname + 'HH' + '\t' + 'return_click_last 1')
+            print (query + 'QQ' + '\t' + 'return_click_last 1')
 
-    if shown_urls[last_viewed] != clicked_list[-1]:
-        print (query + '@itsmydelimeteryouknow@' + clicked_list[-1] + 'QD' + '\t' + 'return_click_last 1')
-        print (clicked_list[-1] + 'DD' + '\t' + 'return_click_last 1')
-        print (urlparse(clicked_list[-1]).hostname + 'HH' + '\t' + 'return_click_last 1')
-        print (query + 'QQ' + '\t' + 'return_click_last 1')
+        if len(clicked_list) > 1:
+            print (query + '@itsmydelimeteryouknow@' + clicked_list[0] + 'QD' + '\t' + 'first_click 1')
+            print (clicked_list[0] + 'DD' + '\t' + 'first_click 1')
+            print (urlparse(clicked_list[0]).hostname + 'HH' + '\t' + 'first_click 1')
 
-    if len(clicked_list) > 1:
-        print (query + '@itsmydelimeteryouknow@' + clicked_list[0] + 'QD' + '\t' + 'first_click 1')
-        print (clicked_list[0] + 'DD' + '\t' + 'first_click 1')
-        print (urlparse(clicked_list[0]).hostname + 'HH' + '\t' + 'first_click 1')
+            print (query + '@itsmydelimeteryouknow@' + clicked_list[-1] + 'QD' + '\t' + 'last_click 1')
+            print (query + '@itsmydelimeteryouknow@' + urlparse(clicked_list[-1]).hostname + 'QH' + '\t' + 'last_click ' + str(i))
+            print (clicked_list[-1] + 'DD' + '\t' + 'last_click 1')
+            print (urlparse(clicked_list[-1]).hostname + 'HH' + '\t' + 'last_click 1')
 
-        print (query + '@itsmydelimeteryouknow@' + clicked_list[-1] + 'QD' + '\t' + 'last_click 1')
-        print (query + '@itsmydelimeteryouknow@' + urlparse(clicked_list[-1]).hostname + 'QH' + '\t' + 'last_click ' + str(i))
-        print (clicked_list[-1] + 'DD' + '\t' + 'last_click 1')
-        print (urlparse(clicked_list[-1]).hostname + 'HH' + '\t' + 'last_click 1')
+            print (query + '@itsmydelimeteryouknow@' + clicked_list[-1] + 'QD' + '\t' + 'region_last ' + region + '@1')
+            print (clicked_list[-1] + 'DD' + '\t' + 'region_last ' + region + '@1')
+            print (urlparse(clicked_list[-1]).hostname + 'HH' + '\t' + 'region_last ' + region + '@1')
 
-        print (query + '@itsmydelimeteryouknow@' + clicked_list[-1] + 'QD' + '\t' + 'region_last ' + region + '@1')
-        print (clicked_list[-1] + 'DD' + '\t' + 'region_last ' + region + '@1')
-        print (urlparse(clicked_list[-1]).hostname + 'HH' + '\t' + 'region_last ' + region + '@1')
+            print (query + 'QQ' + '\t' + 'time ' + str(int(clicked_ts[-1]) - int(clicked_ts[0])))
 
-        print (query + 'QQ' + '\t' + 'time ' + str(int(clicked_ts[-1]) - int(clicked_ts[0])))
-
-        for hoster in clicked_list:
-            print (query + '@itsmydelimeteryouknow@' + host + 'QH' + '\t' + 'click 1')
+            for hoster in clicked_list:
+                print (query + '@itsmydelimeteryouknow@' + host + 'QH' + '\t' + 'click 1')
 
     if len(clicked_list) == 1:
         print (query + '@itsmydelimeteryouknow@' + clicked_list[0] + 'QD' + '\t' + 'only_ctr 1')
