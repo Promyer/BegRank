@@ -16,6 +16,8 @@ def end_process_query():
     imp = answer[0]
     if imp == 0:
         raise Exception("Some exception 6")
+    if answer[1] == 0:
+        answer[1] = -1
     answer += [answer[1]/imp, answer[2]/imp, answer[3]/imp, answer[4]/imp, answer[5]/imp, answer[6]/imp, answer[6]/answer[1]]
     print ("QQ" + current_key[:-2] + '\t' + ' '.join([str(value) for value in answer]))
 
