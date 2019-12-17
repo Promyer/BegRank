@@ -26,7 +26,7 @@ for ln in sys.stdin:
 
     if None in hosts:
         pos = hosts.index(None)
-        host[pos] = "special_host_for broke_point"
+        hosts[pos] = "special_host_for broke_point"
         if shown_urls[pos] in clicked_list:
             clicked_list[clicked_list.index(shown_urls[pos])] = "special_site_for broke_point"
         shown_urls[pos] = "special_site_for broke_point"
