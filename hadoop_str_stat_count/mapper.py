@@ -25,11 +25,12 @@ for ln in sys.stdin:
     hosts = [urlparse(known_url).hostname for known_url in shown_urls]
 
     if None in hosts:
-        pos = hosts.index(None)
-        hosts[pos] = "special_host_for broke_point"
-        if shown_urls[pos] in clicked_list:
-            clicked_list[clicked_list.index(shown_urls[pos])] = "special_site_for broke_point"
-        shown_urls[pos] = "special_site_for broke_point"
+        while None in hosts:
+            pos = hosts.index(None)
+            hosts[pos] = "special_host_for broke_point"
+            if shown_urls[pos] in clicked_list:
+                clicked_list[clicked_list.index(shown_urls[pos])] = "special_site_for_broke_point"
+            shown_urls[pos] = "special_site_for_broke_point"
 
 
     session = [[x, [], False] for x in shown_urls] # url, [num clciks], is return click
