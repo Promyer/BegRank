@@ -423,6 +423,8 @@ def process_query_host(value):
 for line in sys.stdin:
     line = line.strip()
     key, value = line.split('\t', 1)
+    if key == '@ErrorError@':
+        print ("Error\tError")
     ident = key[-2:]
 
     if current_key and current_key != key:

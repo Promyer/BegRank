@@ -7,6 +7,9 @@ from urlparse import urlparse
 for ln in sys.stdin:
     line = ln.strip('\n').split('\t')
 
+    if len(line) != 4:
+        print ("@ErrorError@\t" + '@'.join(line))
+        continue
     query, region = line[0].split("@")
 
     shown_urls = line[1].split(r',')
