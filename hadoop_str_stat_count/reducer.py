@@ -13,6 +13,7 @@ answer = []
 
 def end_process_query():
     global answer
+    global current_key
     imp = answer[0]
     if imp == 0:
         raise Exception("Some exception 6")
@@ -23,6 +24,7 @@ def end_process_query():
 
 def end_process_document():
     global answer
+    global current_key
     imp = answer[0]
     if imp == 0:
         raise Exception("Some exception 7")
@@ -58,6 +60,7 @@ def end_process_document():
 
 def end_process_host():
     global answer
+    global current_key
     imp = answer[0]
     if imp == 0:
         raise Exception("Some exception 8")
@@ -93,6 +96,7 @@ def end_process_host():
 
 def end_process_query_document():
     global answer
+    global current_key
     imp = answer[0]
     if imp == 0:
         raise Exception("Some exception 9")
@@ -130,6 +134,7 @@ def end_process_query_document():
 
 def end_process_query_host():
     global answer
+    global current_key
     imp = answer[0]
     if imp == 0:
         raise Exception("Some exception 10")
@@ -143,6 +148,7 @@ def end_process_query_host():
 
 def make_new_answer_query():
     global answer
+    global current_key
     answer = [
         0,# Количество показов выдачи по запросу
         0,# Суммарное количество кликов
@@ -155,6 +161,7 @@ def make_new_answer_query():
 
 def make_new_answer_document():
     global answer
+    global current_key
     answer = [
         0,# Количество показов
         0,# Сумма позиций
@@ -180,6 +187,7 @@ def make_new_answer_document():
 
 def make_new_answer_host():
     global answer
+    global current_key
     answer = [
         0,# Количество показов
         0,# Сумма позиций
@@ -205,6 +213,7 @@ def make_new_answer_host():
 
 def make_new_answer_query_document():
     global answer
+    global current_key
     answer = [
         0,# Количество показов
         0,# Сумма позиций
@@ -231,6 +240,7 @@ def make_new_answer_query_document():
 
 def make_new_answer_query_host():
     global answer
+    global current_key
     answer = [
         0,# Количество показов
         0,# Средняя позиция
@@ -241,6 +251,7 @@ def make_new_answer_query_host():
 
 def process_query(value):
     global answer
+    global current_key
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += int(point)
@@ -264,6 +275,7 @@ def process_query(value):
 
 def process_query_document (value):
     global answer
+    global current_key
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
@@ -314,6 +326,7 @@ def process_query_document (value):
 
 def process_document(value):
     global answer
+    global current_key
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
@@ -362,6 +375,7 @@ def process_document(value):
 
 def process_host(value):
     global answer
+    global current_key
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
@@ -410,6 +424,7 @@ def process_host(value):
 
 def process_query_host(value):
     global answer
+    global current_key
     tag, point = value.split(' ')
     if tag == 'imp':
         answer[0] += 1
