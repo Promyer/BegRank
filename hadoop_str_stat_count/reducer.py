@@ -314,6 +314,8 @@ def process_query_document (value):
         answer[20][region] += int(num)
     elif tag == 'only_ctr':
         answer[15] += 1
+        answer[10] += 1
+        answer[3] += 1
     elif tag == 'mean_time':
         answer[16] += int(point)
     elif tag == 'position_on_click':
@@ -363,6 +365,8 @@ def process_document(value):
         answer[19][region] += int(num)
     elif tag == 'only_ctr':
         answer[15] += 1
+        answer[10] += 1
+        answer[3] += 1
     elif tag == 'mean_time':
         answer[16] += int(point)
     elif tag == 'position_on_click':
@@ -412,6 +416,8 @@ def process_host(value):
         answer[19][region] += int(num)
     elif tag == 'only_ctr':
         answer[15] += 1
+        answer[10] += 1
+        answer[3] += 1
     elif tag == 'mean_time':
         answer[16] += int(point)
     elif tag == 'position_on_click':
