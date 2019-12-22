@@ -15,7 +15,7 @@ for line in open(file_name, 'r'):
     asking_regions = items[1:]
     for item in asking_regions:
         dic_points = item.split(" ")
-        for point in dic:
+        for point in dic_points:
             if point != "":
                 region, ctr = point.split(":")
                 if region in known_regions:
