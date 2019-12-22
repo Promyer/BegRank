@@ -21,3 +21,4 @@ for line in open(file_name, 'r'):
                 if region in known_regions:
                     continue
                 print (region)
+                known_regions.add(region)
