@@ -5,6 +5,7 @@
 import sys
 
 file_name = sys.argv[1]
+writer = open("known_regions.txt", "w")
 
 known_regions = set()
 
@@ -20,5 +21,5 @@ for line in open(file_name, 'r'):
                 region, ctr = point.split(":")
                 if region in known_regions:
                     continue
-                print (region)
+                writer.write(region + "\n")
                 known_regions.add(region)
