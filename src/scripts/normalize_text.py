@@ -23,8 +23,8 @@ def preprocess_text(text):
     return None
 
 file = open(sys.argv[1], "r")
-titles = open("title.tsv", "w")
-bodies = open("bodies.tsv", "w")
+titles = open("title_normalized_" + sys.argv[1], "w")
+bodies = open("bodies_normalized_" + sys.argv[1], "w")
 for line in file:
     num, title, body = line.strip().split("\t")
     titles.write(num + "\t" + preprocess_text(title))
