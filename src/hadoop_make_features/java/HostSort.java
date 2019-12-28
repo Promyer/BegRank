@@ -1,4 +1,4 @@
-import org.apache.hadoop.conf.Configuration;
+getFirstimport org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.*;
@@ -43,6 +43,7 @@ public class HostSort extends Configured implements Tool {
     @Override
     public int run(String[] args) throws Exception {
         Job job = GetJobConf(getConf(), args[0], args[1]);
+
         return job.waitForCompletion(true) ? 0 : 1;
     }
 
@@ -50,7 +51,7 @@ public class HostSort extends Configured implements Tool {
     public static class HostQueryPartitioner extends Partitioner<TextTextPair, Text> {
         @Override
         public int getPartition(TextTextPair key, Text val, int numPartitions) {
-            return Math.abs(key.getUrl().hashCode()) % numPartitions;
+            return Math.abs(key.getFirst().hashCode()) % numPartitions;
         }
     }
 
@@ -73,8 +74,8 @@ public class HostSort extends Configured implements Tool {
         @Override
         public int compare(WritableComparable a, WritableComparable b) {
 
-            Text a_first = ((TextTextPair)a).getUrl();
-            Text b_first = ((TextTextPair)b).getUrl();
+            Text a_first = ((TextTextPair)a).getFirst();
+            Text b_first = ((TextTextPair)b).getFirst();
             return a_first.compareTo(b_first);
         }
     }
@@ -85,17 +86,56 @@ public class HostSort extends Configured implements Tool {
         @Override
         protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             String[] items = value.toString().split("\t");
-            Text host = new Text(getHost(items[1]));
+            String itent = items[0].substring(0, 2);
 
-            context.write(new TextTextPair(host, new Text(items[0])), new Text(items[0]));
+            String real_value =
+
+            String point = items[0].substring(2);
+            String statistics = items[1];
+
+            if (itent == "QD"){
+                String[] query_document = point.split("@ @", -1);
+                //Text host = new Text(getHost(items[1]));
+                context.write(new TextTextPair("D" + query_document[1], new Text("b"/* для вторичной сортировки*/),
+                    new Text("SQ" + point + "@###delimeter@" + statistics)));
+
+            }else if (itent == "DD"){
+                context.write(new TextTextPair("D" + point, new Text("a")), new Text("SD" + statistics));
+
+            }else if (itent == "QH"){
+                String[] query_host = point.split("@ @", -1);
+                context.write(new TextTextPair("H" + query_document[1], new Text("b"/* для вторичной сортировки*/)),
+                    new Text("SI" + point + "@###delimeter@" + statistics));
+
+            }else if (itent == "HH"){
+                context.write(new TextTextPair("H" + point, new Text("a")), new Text("SH" + statistics));
+
+            }else if (itent == "QQ"){
+                context.write(new TextTextPair("Q", new Text("")), value);
+
+            }
 
         }
     }
 
 
-    public static class HostReducer extends Reducer<TextTextPair, Text, TextTextPair, Text> {
+    public static class HostReducer extends Reducer<TextTextPair, Text, Text, Text> {
         @Override
         protected void reduce(TextTextPair key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+
+            point = key.getFirst().toString();
+            itent = point.substring(0,1)
+            clean_key = point.substring(1)
+
+            if (itent == "D") {
+                context.write(new Text(clean_key + " " + ), new Text(String.valueOf(best_len)));//TODO
+            }
+            else if (itent == "H"){
+                statistic =
+            }
+            else if (itent == "Q"){
+
+            }
             Text best_query = key.getSecond();
             Text cur_query = key.getSecond();
             int best_len = 1;

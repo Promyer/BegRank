@@ -28,7 +28,7 @@ public class TextTextPair implements WritableComparable<TextTextPair> {
         second = b;
     }
 
-    public Text getUrl() {
+    public Text getFirst() {
         return first;
     }
 
