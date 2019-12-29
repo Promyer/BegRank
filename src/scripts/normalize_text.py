@@ -19,11 +19,13 @@ def preprocess_text(text):
     text = " ".join(tokens)
 
     return text
-
 file = open(sys.argv[1], "r")
 titles = open("title_normalized_" + sys.argv[1], "w")
 bodies = open("bodies_normalized_" + sys.argv[1], "w")
 for line in file:
-    num, title, body = line.strip().split("\t")
-    titles.write(num + "\t" + preprocess_text(title))
-    bodies.write(num + "\t" + preprocess_text(body))
+    try:
+        num, title, body = line.strip().split("\t")
+        titles.write(num + "\t" + preprocess_text(title))
+        bodies.write(num + "\t" + preprocess_text(body))
+    except:
+        continue
