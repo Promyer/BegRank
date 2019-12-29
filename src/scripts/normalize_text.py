@@ -11,16 +11,14 @@ russian_stopwords = stopwords.words("russian")
 
 #Preprocess function
 def preprocess_text(text):
-    if (len(text) < 10000):
-        tokens = stemmer.lemmatize(text.lower())
-        tokens = [token for token in tokens if token not in russian_stopwords\
-                  and token != " " \
-                  and token.strip() not in punctuation]
+    tokens = stemmer.lemmatize(text.lower())
+    tokens = [token for token in tokens if token not in russian_stopwords\
+              and token != " " \
+              and token.strip() not in punctuation]
 
-        text = " ".join(tokens)
+    text = " ".join(tokens)
 
-        return text
-    return None
+    return text
 
 file = open(sys.argv[1], "r")
 titles = open("title_normalized_" + sys.argv[1], "w")
