@@ -25,7 +25,7 @@ bodies = open("bodies_normalized_" + sys.argv[1], "w")
 for line in file:
     try:
         num, title, body = line.strip().split("\t")
-        titles.write(num + "\t" + preprocess_text(title))
-        bodies.write(num + "\t" + preprocess_text(body))
+        titles.write(num + "\t" + preprocess_text(title) + "\n")
+        bodies.write(num + "\t" + preprocess_text(body) + "\n")
     except:
         continue
