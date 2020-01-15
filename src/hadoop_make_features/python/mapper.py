@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
+from urlparse import urlparse, ParseResult
 
 
 with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, open('queries.dat', 'r') as queries_file:
@@ -31,14 +32,19 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
         elif itent == 'QD':
 
             query, url = key.split("@ @")
+            parsed_url = urlparse(url)
+            url = ParseResult('', *parsed_url[1:]).geturl()
 
             if query in queries and url in urls:
-                print ('QD@ @' + key + '\t' + value.split('@ @')[0])
+                print ('QD@ @' + query + '@ @' + url + '\t' + value.split('@ @')[0])
 
         elif itent == 'DD':
 
-            if key in urls:
-                print ('DD@ @' + key + '\t' + value.split('@ @')[0])
+            parsed_url = urlparse(url)
+            url = ParseResult('', *parsed_url[1:]).geturl()
+
+            if url in urls:
+                print ('DD@ @' + url + '\t' + value.split('@ @')[0])
 
         elif itent == 'QH':
 
