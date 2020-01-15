@@ -7,15 +7,15 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
 
     urls = set()
     for url in urls_file:
-        urls.append(url.rstrip())
+        urls.add(url.rstrip())
 
     queries = set()
     for query in queries_file:
-        queries.append(query.rstrip())
+        queries.add(query.rstrip())
 
     hosts = set()
     for host in hosts_file:
-        hosts.append(host.rstrip())
+        hosts.add(host.rstrip())
 
     for ln in sys.stdin:
         line = ln.strip('\n')
