@@ -88,10 +88,8 @@ public class HostSort extends Configured implements Tool {
             String[] items = value.toString().split("\t");
             String itent = items[0].substring(0, 2);
 
-            String real_value =
-
             String point = items[0].substring(2);
-            String statistics = items[1];
+            String statistics = items[1].split("@ @")[0];
 
             if (itent == "QD"){
                 String[] query_document = point.split("@ @", -1);

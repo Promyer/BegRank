@@ -4,34 +4,54 @@ import sys
 from urlparse import urlparse
 
 
-for ln in sys.stdin:
-    line = ln.strip('\n')
-    if len(line) < 6:
-        print("$$$fdad!@##$$$ERROR+\t" + '2##@'.join(buf))
-        continue
-    if line[:2] == 'QQ':
-        print (line)
-    elif line[:2] == 'QD':
+with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, open('queries.dat', 'r') as queries_file:
+
+    urls = set()
+    for url in urls_file:
+        urls.append(url.rstrip())
+
+    queries = set()
+    for query in queries_file:
+        queries.append(query.rstrip())
+
+    hosts = set()
+    for host in hosts_file:
+        hosts.append(host.rstrip())
+
+    for ln in sys.stdin:
+        line = ln.strip('\n')
+        itent = line[:2]
         line = line[2:]
-        buf = line.split('\t')
-        if len(buf != 2):
-            print("$$$fdad!@##$$$ERROR+\t" + '1##@'.join(buf))
-            continue
-        key, value = buf
-        buf = key.split('@ @')
-        if len(buf != 2):
-            print("$$$fdad!@##$$$ERROR+\t" + '2##@'.join(buf))
-            continue
-        query, site = buf
-        host =
+        key, value = line.split('\t')
 
-        host =
-    elif line[:2] == 'DD':
+        if itent == 'QQ':
 
-    elif line[:2] == 'QH':
+            if key in queries:
+                print ("QQ@ @" + line)
 
-    elif line[:2] == 'HH':
+        elif itent == 'QD':
 
-    else:
-    print("Error: " + line)
-    count[5] += 1
+            query, url = key.split("@ @")
+
+            if query in queries and url in urls:
+                print ('QD@ @' + key + '\t' + value.split('@ @')[0])
+
+        elif itent == 'DD':
+
+            if key in urls:
+                print ('DD@ @' + key + '\t' + value.split('@ @')[0])
+
+        elif itent == 'QH':
+
+            query, host = key.split("@ @")
+
+            if query in queries and host in hosts:
+                print ('QH@ @' + line)
+
+        elif itent == 'HH':
+
+            if key in hosts:
+                print ('HH@ @' + line)
+
+        else:
+            print("Error: " + line)
