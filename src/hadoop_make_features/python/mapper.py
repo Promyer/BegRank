@@ -9,14 +9,17 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
     urls = set()
     for url in urls_file:
         urls.add(url.rstrip())
+        urls.remove('')
 
     queries = set()
     for query in queries_file:
         queries.add(query.rstrip())
+        queries.remove('')
 
     hosts = set()
     for host in hosts_file:
         hosts.add(host.rstrip())
+        hosts.remove('')
 
     for ln in sys.stdin:
         line = ln.strip('\n')
@@ -33,7 +36,7 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
 
             query, url = key.split("@ @")
             parsed_url = urlparse(url)
-            url = ParseResult('', *parsed_url[1:]).geturl()
+            url = ParseResult('', *parsed_url[1:]).geturl()[2:]
 
             if query in queries and url in urls:
                 print ('QD@ @' + query + '@ @' + url + '\t' + value.split('@ @')[0])
@@ -41,7 +44,7 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
         elif itent == 'DD':
 
             parsed_url = urlparse(url)
-            url = ParseResult('', *parsed_url[1:]).geturl()
+            url = ParseResult('', *parsed_url[1:]).geturl()[2:]
 
             if url in urls:
                 print ('DD@ @' + url + '\t' + value.split('@ @')[0])
