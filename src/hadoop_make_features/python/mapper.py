@@ -40,7 +40,7 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
 
         elif itent == 'DD':
 
-            parsed_url = urlparse(url)
+            parsed_url = urlparse(key)
             url = ParseResult('', *parsed_url[1:]).geturl()[2:]
 
             if url in urls:
