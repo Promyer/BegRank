@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
-from urlparse import urlparse
 
 
 with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, open('queries.dat', 'r') as queries_file:
@@ -51,7 +50,7 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
         elif itent == 'HH':
 
             if key in hosts:
-                print ('HH@ @' + line)
+                print ('HH@ @' + key + '\t' + value.split('@ @')[0])
 
         else:
             print("Error: " + line)
