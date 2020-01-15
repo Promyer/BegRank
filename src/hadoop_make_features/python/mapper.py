@@ -9,17 +9,14 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
     urls = set()
     for url in urls_file:
         urls.add(url.rstrip())
-        urls.remove('')
 
     queries = set()
     for query in queries_file:
         queries.add(query.rstrip())
-        queries.remove('')
 
     hosts = set()
     for host in hosts_file:
         hosts.add(host.rstrip())
-        hosts.remove('')
 
     for ln in sys.stdin:
         line = ln.strip('\n')

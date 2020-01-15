@@ -14,12 +14,12 @@ url_file = open('urls.dat', 'w')
 query_file = open('queries.dat', 'w')
 
 for line in urls:
-    url = line.split('\t')[1]
+    url = line.rstrip().split('\t')[1]
     host = urlparse('//' + url).hostname
     url_file.write(url + '\n')
     if not (host is None):
         host_file.write(host + '\n')
 
 for line in queries:
-    query = line.split('\t')[1]
+    query = line.rstrip().split('\t')[1]
     query_file.write(query + '\n')
