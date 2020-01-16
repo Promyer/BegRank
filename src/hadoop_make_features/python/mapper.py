@@ -4,19 +4,31 @@ import sys
 from urlparse import urlparse, ParseResult
 
 
-with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, open('queries.dat', 'r') as queries_file:
+with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, open('queries.dat', 'r') as queries_file, \
+     open('queries_spell.dat', 'r') as query_spell_file, open('queries_norm.dat', 'r') as queries_norm_file:
 
     urls = set()
     for url in urls_file:
         urls.add(url.rstrip())
 
+    hosts = set()
+    for host in hosts_file:
+        hosts.add(host.rstrip())
+
     queries = set()
     for query in queries_file:
         queries.add(query.rstrip())
 
-    hosts = set()
-    for host in hosts_file:
-        hosts.add(host.rstrip())
+    queries_spell = dict()
+    for line in queries_spell_file:
+        good_query, real_query = line.split('\t')
+        queries_spell[good_query] = real_query
+
+    queries_norm = dict()
+    for line in queries_norm_file:
+        good_query, real_query = line.split('\t')
+        queries_norm[good_query] = real_query
+
 
     for ln in sys.stdin:
         line = ln.strip('\n')
@@ -28,6 +40,8 @@ with open('urls.dat', 'r') as urls_file, open('hosts.dat', 'r') as hosts_file, o
 
             if key in queries:
                 print ("QQ@ @" + line)
+
+            key_spell = queries_spell[key]
 
         elif itent == 'QD':
 
